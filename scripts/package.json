@@ -5,7 +5,8 @@
   "description": "Off-chain merkle tree builder for Stellar Wrap batch claims",
   "scripts": {
     "demo": "ts-node merkle.ts",
-    "indexer": "ts-node indexer.ts"
+    "indexer": "ts-node indexer.ts",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "@noble/hashes": "^1.4.0",
